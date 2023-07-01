@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Sofia&display=swap');
 *{
     margin: 0;
     padding: 0;
+    
 }
 li{
     list-style-type: none;
@@ -30,6 +33,10 @@ li{
     justify-content: center;
     
     
+}
+.nav-logo img{
+  width: 100px;
+  height: auto;
 }
 .nav-card{
     width: 80%;
@@ -65,7 +72,8 @@ li{
 }
 .join{
     display: inline-flex;
-    padding: 0px 10px;
+    padding: 5px 10px;
+    margin-top: -2px;
     justify-content: center;
     align-items: center;
     color: #FFF;
@@ -298,6 +306,168 @@ li{
 .carousel-card-btn .btn2 i{
     margin-right: 10px;
 }
+/* aims-work */
+
+.aims-work{
+  margin-top: 30px;
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+.aims-work-overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.15000000596046448;
+  background: linear-gradient(116deg, #FCA800 0%, #F84661 100%);
+  z-index: -1;
+}
+.aims-work-content{
+  margin-left:150px ;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: Poppins;
+}
+.aims-work-content .title{
+   font-size: 30px;
+   margin-bottom: 20px;
+}
+.aims-work-content .title span{
+  font-weight: 700;
+  
+}
+.aims-card{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+.aims-work-content1{
+  width: 220px;
+  text-align: center;
+}
+.aims-content-details h2{
+  margin-bottom:10px;
+}
+.aims-content-img img{
+  height: 50px;
+  width: 50px;
+  margin: 10px 0;
+}
+
+/* product */
+.product{
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+
+
+.product-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background:#D6D6D6;
+  opacity: 0.15000000596046448;
+  z-index: -1;
+}
+.product-content{
+  padding: 50px 0;
+}
+.product-content{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.product-content .card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+
+/* happy client */
+
+
+.happy-client{
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+
+
+.client-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(317deg, #FCA800 0%, #F84661 100%);
+  opacity: 0.15000000596046448;
+  z-index: -1;
+}
+
+.happy-client-content{
+  margin-left:150px ;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+.happy-client .title{
+   font-size: 30px;
+   margin-bottom: 20px;
+}
+.happy-client .title span{
+  font-weight: 700;
+  
+} 
+
+.happy-client .img-icon1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 200px;
+  
+  
+} 
+.happy-client .img-icon1 img{
+  height: 60px;
+  width: 80px;
+}
+.happy-client .img-icon2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 200px;
+  margin-top: 50px;
+  
+  
+} 
+.happy-client .img-icon2 img{
+  height: 60px;
+  width: 80px;
+}
+.happy-client .img-icon3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 200px;
+  margin-top: 50px;
+  
+  
+} 
+.happy-client .img-icon3 img{
+  height: 60px;
+  width: 80px;
+}
+
 
 /* footer */
 .footer{
@@ -314,10 +484,16 @@ li{
 }
 .footer-icon{
     margin-top: 30px;
+    color: #FCA800;
 }
 
 .footer-section-1{
     margin-left: 100px;
+}
+.footer-section-1 img{
+  width: 100px;
+  height: auto;
+  margin-bottom: 45px;
 }
 .footer-section-2{
     margin-left: 80px;
@@ -332,130 +508,4 @@ li{
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 28px;
-}
-
-.signup-body{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-
-.container {
-    width: 450px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding:20px;
-    border-radius: 16px;
-    background: rgba(255, 255, 255, 0.40);
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
-    backdrop-filter: blur(10px);
-  }
-
-  .container h2 {
-    text-align: center;
-    color: #000;
-    font-size: 32px;
-    font-family: Poppins;
-    font-weight: 700;
-    margin-bottom: 10px;
-  }
-  .brand{
-    color: #FCA800;
-  }
-  .container .signup-details{
-    color: #000;
-    text-align: center;
-    font-size: 18px;
-    font-family: Poppins;
-    margin-bottom: 30px;
-    padding:20px;
-  } 
-
-  .container form{
-    text-align: center;
-  }
-
-  .form-group {
-    margin-bottom: 20px;
-  }
-
-
-  .form-group input {
-    width: 80%;
-    padding: 8px;
-    border-radius: 8px;
-    border: 1px solid rgba(248, 70, 97, 0.30);
-    background: #FFF;
-    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.15) inset;
-
-  }
-
-  .form-group input[type="submit"] {
-    margin:10px 0;
-    border-radius: 8px;
-    background: linear-gradient(346deg, #FCA800 0%, #F84661 100%);
-    cursor: pointer;
-  }
-
-  .form-group input[type="submit"]:hover {
-    margin-top:10px 0;
-    border-radius: 8px;
-    background: linear-gradient(346deg,#F84661 100%, #FCA800 0%);
-    cursor: pointer;
-  }
-  .Privacy{
-    color: #000;
-    text-align: center;
-    font-size: 18px;
-    font-family: Poppins;
-  }
-  .container .form-group span{
-    color: #F84661;
-  } 
-
-  .forget-password{
-    display: flex;
-    justify-content: right;
-    color: #F84661;
-    padding-right:40px;
-    margin: 5px 0;
-  }
-
- .divider {
-  font-size: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.divider::before, .divider::after {
-  flex: 1;
-  content: '';
-  padding: 1px;
-  background: rgba(0, 0, 0, 0.40);
-  margin: 20px;
-}
-.googleOrFacebook{
-  display: flex;
-  justify-content: space-around;
-}
-.googleOrFacebook button{
-  color: #000;
-  padding: 10px;
-  font-size: 15px;
-  font-family: Poppins;
-  font-weight: 700;
-  border: none;
-  border-radius: 10px;
-  background: #FFF;
-  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.20);
-}
-.googleOrFacebook i{
-  margin:0 5px;
-}
-.googleOrFacebook .fa-facebook{
-  color: #1877F2;
-}
-.googleOrFacebook .fa-google{
-  color: #808040;
 }
