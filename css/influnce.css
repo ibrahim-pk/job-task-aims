@@ -33,6 +33,10 @@ li{
     
     
 }
+.nav-logo img{
+  width: 100px;
+  height: auto;
+}
 .nav-card{
     width: 80%;
     height: 60px;
@@ -96,6 +100,11 @@ li{
 
 .footer-section-1{
     margin-left: 100px;
+}
+.footer-section-1 img{
+  width: 100px;
+  height: auto;
+  margin-bottom: 45px;
 }
 .footer-section-2{
     margin-left: 80px;
